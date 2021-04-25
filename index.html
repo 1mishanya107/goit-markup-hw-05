@@ -40,7 +40,7 @@
         <ul class="list-no-style contacts">
           <li class="item">
             <a class="link-contacts link" href="mailto:info@devstudio.com">
-              <svg class="contacts-icon" width="20" height="20">
+              <svg class="contacts-icon" width="16" height="16">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com</a
@@ -48,7 +48,7 @@
           </li>
           <li class="item">
             <a class="link-contacts link" href="tel:+380961111111">
-              <svg class="contacts-icon" width="20" height="20">
+              <svg class="contacts-icon" width="16" height="16">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -83,9 +83,11 @@
           <h2 class="section-title" hidden>Наши преимущества</h2>
           <ul class="advantage-list list-no-style">
             <li class="advantage">
-              <svg class="advantage-icon" width="270" height="110">
-                <use href="./images/icons.svg#icon-antenna"></use>
-              </svg>
+              <div class="advantage-icon">
+                <svg width="70" height="70">
+                  <use href="./images/icons.svg#icon-antenna"></use>
+                </svg>
+              </div>
               <h3 class="title">Внимание к деталям</h3>
               <p>
                 Идейные соображения, а также начало повседневной работы по
@@ -93,9 +95,11 @@
               </p>
             </li>
             <li class="advantage">
-              <svg class="advantage-icon" width="270" height="110">
-                <use href="./images/icons.svg#icon-clock"></use>
-              </svg>
+              <div class="advantage-icon">
+                <svg width="70" height="70">
+                  <use href="./images/icons.svg#icon-clock"></use>
+                </svg>
+              </div>
               <h3 class="title">Пунктуальность</h3>
               <p>
                 Задача организации, в особенности же рамки и место обучения
@@ -103,9 +107,11 @@
               </p>
             </li>
             <li class="advantage">
-              <svg class="advantage-icon" width="270" height="110">
-                <use href="./images/icons.svg#icon-diagram"></use>
-              </svg>
+              <div class="advantage-icon">
+                <svg width="70" height="70">
+                  <use href="./images/icons.svg#icon-diagram"></use>
+                </svg>
+              </div>
               <h3 class="title">Планирование</h3>
               <p>
                 Равным образом консультация с широким активом в значительной
@@ -113,9 +119,11 @@
               </p>
             </li>
             <li class="advantage">
-              <svg class="advantage-icon" width="270" height="110">
-                <use href="./images/icons.svg#icon-astronaut"></use>
-              </svg>
+              <div class="advantage-icon">
+                <svg width="70" height="70">
+                  <use href="./images/icons.svg#icon-astronaut"></use>
+                </svg>
+              </div>
               <h3 class="title">Современные технологии</h3>
               <p>
                 Значимость этих проблем настолько очевидна, что реализация
@@ -175,6 +183,7 @@
           <ul class="team-list list-no-style">
             <li class="element">
               <img
+                class="photo"
                 src="./images/main/product-designer.jpg"
                 alt="Фото Игоря Демьяненко"
                 width="270"
@@ -216,6 +225,7 @@
             </li>
             <li class="element">
               <img
+                class="photo"
                 src="./images/main/frontend-developer.jpg"
                 alt="Фото Ольги Репиной"
                 width="270"
@@ -257,6 +267,7 @@
             </li>
             <li class="element">
               <img
+                class="photo"
                 src="./images/main/marketing.jpg"
                 alt="Фото Николая Тарасова"
                 width="270"
@@ -298,6 +309,7 @@
             </li>
             <li class="element">
               <img
+                class="photo"
                 src="./images/main/pui-designer.jpg"
                 alt="Фото Михаила Ермакова"
                 width="270"
@@ -348,42 +360,42 @@
           <ul class="list-no-style clients-list">
             <li class="item">
               <a class="clients-link" href="#">
-                <svg class="clients-icon" width="106" height="60">
+                <svg class="clients-icon" width="44">
                   <use href="./images/icons.svg#icon-logo-company-1"></use>
                 </svg>
               </a>
             </li>
             <li class="item">
               <a class="clients-link" href="#">
-                <svg class="clients-icon" width="106" height="60">
+                <svg class="clients-icon" width="40">
                   <use href="./images/icons.svg#icon-logo-company-2"></use>
                 </svg>
               </a>
             </li>
             <li class="item">
               <a class="clients-link" href="#">
-                <svg class="clients-icon" width="106" height="60">
+                <svg class="clients-icon" width="41">
                   <use href="./images/icons.svg#icon-logo-company-3"></use>
                 </svg>
               </a>
             </li>
             <li class="item">
               <a class="clients-link" href="#">
-                <svg class="clients-icon" width="106" height="60">
+                <svg class="clients-icon" width="80">
                   <use href="./images/icons.svg#icon-logo-company-4"></use>
                 </svg>
               </a>
             </li>
             <li class="item">
               <a class="clients-link" href="#">
-                <svg class="clients-icon" width="106" height="60">
+                <svg class="clients-icon" width="59">
                   <use href="./images/icons.svg#icon-logo-company-5"></use>
                 </svg>
               </a>
             </li>
             <li class="item">
               <a class="clients-link" href="#">
-                <svg class="clients-icon" width="106" height="60">
+                <svg class="clients-icon" width="88">
                   <use href="./images/icons.svg#icon-logo-company-6"></use>
                 </svg>
               </a>
@@ -404,13 +416,13 @@
           <address class="footer-address">
             <p class="item">г. Киев, пр-т Леси Украинки, 26</p>
             <a class="link-contacts link item" href="mailto:info@example.com"
-              ><svg class="contacts-icon" width="20" height="20">
+              ><svg class="contacts-icon" width="16" height="16">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
               info@example.com</a
             >
             <a class="link-contacts link item" href="tel:+380991111111">
-              <svg class="contacts-icon" width="20" height="20">
+              <svg class="contacts-icon" width="16" height="16">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
               +38 099 111 11 11</a
@@ -455,7 +467,9 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="close" data-modal-close>
-          <img src="./images/SVG/close.svg" alt="Закрыть" />
+          <svg width="11" height="11">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
         </button>
       </div>
     </div>
