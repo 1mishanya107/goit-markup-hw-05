@@ -67,7 +67,11 @@
             Эффективные решения<br />
             для вашего бизнеса
           </h1>
-          <button type="button" class="button primary btn-order">
+          <button
+            type="button"
+            class="button primary btn-order"
+            data-modal-open
+          >
             Заказать услугу
           </button>
         </div>
@@ -126,27 +130,39 @@
       <section class="section no-padding">
         <div class="container">
           <h2 class="section-title">Чем мы занимаемся</h2>
-          <ul class="list-no-style work">
-            <li>
+          <ul class="list-no-style work-list">
+            <li class="item">
               <img
+                class="work-example"
                 src="./images/main/img-html.jpg"
                 alt="Создание html"
                 width="370"
               />
+              <div class="work-label">
+                <p>Десктопные приложения</p>
+              </div>
             </li>
-            <li>
+            <li class="item">
               <img
+                class="work-example"
                 src="./images/main/img-css.jpg"
                 alt="Добавление css"
                 width="370"
               />
+              <div class="work-label">
+                <p>Мобильные приложения</p>
+              </div>
             </li>
-            <li>
+            <li class="item">
               <img
+                class="work-example"
                 src="./images/main/img-design.jpg"
                 alt="Подбор индивидуального дизайна"
                 width="370"
               />
+              <div class="work-label">
+                <p>Дизайнерские решения</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -436,5 +452,13 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close" data-modal-close>
+          <img src="./images/SVG/close.svg" alt="Закрыть" />
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
